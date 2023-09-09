@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil -Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: antiquewhite;
+            color: black;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: azure;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li a :hover {
+            color: lavender;
+            font-size: 1.4rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .Leftsection {
+
+            font-size: 2rem;
+            margin: 80px 0;
+        }
+
+        .Leftsection .btn {
+
+            background-color: wheat;
+            color: #e0f1e9;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+
+        .Rightsection img {
+            border-color: burlywood;
+            width: 89%;
+        }
+
+        .blue {
+            color: #2a0efff0;
+        }
+
+        #element {
+            color: rebeccapurple;
+        }
+
+        footer {
+            background-color: #e0f1e9;
+            height: 120px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 15px 122px;
+            justify-content: space-evenly;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 100px;
+        }
+
+        .text {
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nikhil's Portfolio</div>
+            <div class="Right">
+                <ul>
+                    <a href="/">
+                        <li> About </li>
+                    </a> <a href="/">
+                        <li>Home</li>
+                    </a><a href="/">
+                        <li> Project</li>
+                    </a><a href="/">
+                        <li> Contact </li>
+                    </a><a href="/"></a>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="Leftsection">
+                Hi , My Name is <span class="blue">Nikhil </span>
+                <div> and i am passionate </div>
+                <div>web developer.</div>
+                <span id="element"></span>
+                <div class="button" >
+                    <button class="btn"> <a href="Resume.html" >Resume </a>  </button>
+                </div>
+            </div>
+
+            <div class="Rightsection">
+                <img src="image.jpg" alt="">
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer- first">
+                <h2>Nikhil portfolio's </h2>
+            </div>
+            <div class="footer- second">
+                <ul>
+                    <li>Home</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                </ul>
+                <ul>
+                    <li> Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer- third">
+                <ul>
+                    <li>Home</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                </ul>
+                <ul>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer- fourth">
+                <ul>
+                    <li>Home</li>
+                </ul>
+                <ul>
+                    <li>About</li>
+                </ul>
+                <ul>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text">www.nikhilsportfolio.com | All right reserved </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>I Also Know </i> C and C++ Lanuages .', '&amp; i am learning java .'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
